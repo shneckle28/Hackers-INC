@@ -1,0 +1,19 @@
+REM You Have to replace EXAMPLE with your link.
+
+REM Author: Shneckle
+REM Description: Open any website on an iPhone.
+REM Version: 1.0
+REM Category: iPhone
+DELAY 1000
+GUI SPACE
+DELAY 500
+STRING safari
+DELAY 500
+ENTER
+DELAY 1000
+GUI l
+DELAY 500
+REM Insert your website below :)
+STRING EXAMPLE
+DELAY 500
+ENTER
