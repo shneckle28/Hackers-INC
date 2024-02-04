@@ -1,0 +1,17 @@
+REM description: Creates a god folder on targets computer then opens said file. A god file is a place where you can access all types of system settings and information.
+REM author: shneckle
+REM version: Windows 10/11
+
+DELAY 500
+GUI r
+DELAY 500
+STRING CMD
+ENTER
+DELAY 500
+STRING mkdir GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}
+ENTER
+DELAY 500
+GUI r
+DELAY 500
+STRING GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}
+ENTER
